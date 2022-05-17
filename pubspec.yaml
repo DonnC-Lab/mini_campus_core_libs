@@ -1,0 +1,36 @@
+name: mini_campus_core_libs
+description: A part package for MiniCampus Core libs
+version: 0.0.1
+homepage: https://github.com/DonnC-Lab
+publish_to: none
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # firebase | google
+  cloud_firestore: ^3.1.10
+  firebase_auth: ^3.3.9
+  firebase_core: ^1.13.1
+  firebase_storage: ^10.2.9
+  firebase_messaging: ^11.2.8
+  firebase_database: ^9.0.8
+  flutterfire_ui: ^0.3.6
+
+  # state management
+  flutter_riverpod: ^2.0.0-dev.4
+
+  # network
+  dio: ^4.0.4
+  flutter_cache_manager: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
