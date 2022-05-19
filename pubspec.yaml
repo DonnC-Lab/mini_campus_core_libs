@@ -19,7 +19,7 @@ dependencies:
   firebase_storage: ^10.2.9
   firebase_messaging: ^11.2.8
   firebase_database: ^9.0.8
-  flutterfire_ui: ^0.3.6
+  google_sign_in: ^5.3.1
 
   # state management
   flutter_riverpod: ^2.0.0-dev.4
